@@ -131,15 +131,15 @@ public class function {
             
     public static void main(String[] args) {
        
-        // System.out.println( factorial(4));
-        // product(4, 5);
-        // System.out.println(bincoeff(5, 2));
-        //primesinRange(20);
-        //binToDec(1101); 
-        // decToBin(7);
-        //average(4, 5, 6);  
-        //System.out.println(isEven(8));  
-        //System.out.println(isPalindrome(321));
-       // System.out.println(sumOfDigits(1234));
+        System.out.println( factorial(4));
+        product(4, 5);
+        System.out.println(bincoeff(5, 2));
+        primesinRange(20);
+        binToDec(1101); 
+        decToBin(7);
+        average(4, 5, 6);  
+        System.out.println(isEven(8));  
+        System.out.println(isPalindrome(321));
+       System.out.println(sumOfDigits(1234));
     }
 }

@@ -131,14 +131,14 @@ public static void floyds_triangle(int n){
             }
         }     
     public static void main(String[] args) {
-       //hallow_rectangle(5,7);
-       //inverted_rotated_half_pyramid(5);
-       //inverted_half_pyramid_with_numbers(10);
-       //floyds_triangle(5); 
-       //zero_one_trinagle(5);  
-       //butterfly_pattern(4); 
-       //solid_rhombus(5);
-       // hollow_rhombus(5);
+       hallow_rectangle(5,7);
+       inverted_rotated_half_pyramid(5);
+       inverted_half_pyramid_with_numbers(10);
+       floyds_triangle(5); 
+       zero_one_trinagle(5);  
+       butterfly_pattern(4); 
+       solid_rhombus(5);
+       hollow_rhombus(5);
          diamond_pattern(5);     
     }   
 }
