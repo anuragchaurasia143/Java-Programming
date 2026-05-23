@@ -78,7 +78,7 @@ public class searching {
                 int end = j;
                 for (int k=start; k<=end; k++){
                     System.out.print(number[k] + " ");
-                }
+            }
                 System.out.println();
             }
             System.out.println();

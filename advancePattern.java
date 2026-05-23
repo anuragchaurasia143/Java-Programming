@@ -139,7 +139,7 @@ public static void floyds_triangle(int n){
        butterfly_pattern(4); 
        solid_rhombus(5);
        hollow_rhombus(5);
-         diamond_pattern(5);     
+       diamond_pattern(5);     
     }   
 }
 
