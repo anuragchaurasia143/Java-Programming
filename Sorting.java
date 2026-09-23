@@ -1,4 +1,6 @@
 
+import java.util.Arrays;
+
 public class Sorting{
 
     //Bubble Sort
@@ -81,13 +83,14 @@ public class Sorting{
 
     public static void main(String[] args) {
         int arr[] = {5,4,1,3,2};
-          //bubbleSort(arr);
-          //selectionSort(arr);
-          //insertionSort(arr);
+        bubbleSort(arr);
+        System.out.println(Arrays.toString(arr));
+        //selectionSort(arr);
+        //insertionSort(arr);
 
-          //inbuilt sort in java
-          //Arrays.sort(arr,0,3);
-              countingSort(arr);
-          printArr(arr);
-        }
+        //inbuilt sort in java
+        //Arrays.sort(arr,0,3);
+        // countingSort(arr);
+        // printArr(arr);
+    }
     }

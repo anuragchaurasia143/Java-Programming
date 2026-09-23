@@ -6,7 +6,7 @@ public class max_subarray_sum {
         for (int i=0; i<number.length; i++){
            int  start = i;
             for (int j=i; j<number.length; j++){
-               int  end = j;
+               int  end = j;  
                 currentSum = 0;
                 for (int k=i; k<=j; k++){
                     currentSum += number[k];
@@ -41,4 +41,4 @@ public class max_subarray_sum {
         int numbers[] = {-2,-3,4,-1,-2,1,5,-3};
         kadanes(numbers);
     }
-}
+} 
